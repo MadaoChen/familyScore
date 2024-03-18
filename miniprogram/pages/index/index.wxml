@@ -1,0 +1,53 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 日期 -->
+  <view class="time">
+    <view class="time-item">
+      <view class="time-title">Daily</view>
+      <view class="time-time">today</view>
+    </view>
+
+    <view class="time-separator"></view>
+
+    <view class="time-item active">
+      <view class="time-title">Weekly</view>
+      <view class="time-time">this week</view>
+    </view>
+
+    <view class="time-separator"></view>
+
+    <view class="time-item">
+      <view class="time-title">Monthly</view>
+      <view class="time-time">this month</view>
+    </view>
+  </view>
+
+  <!-- 排名  -->
+  <view class="rank">
+    <view class="rank-second">
+      <view class="rank-second-photo blue">
+        <image src="/images/rank-s.png" class="rank-s"></image>
+        <text class="rank-s-text">2</text>
+        <text class="rank-s-name">涵</text>
+      </view>
+      <view class="rank-second-content">
+        <view class="rank-second-content-title">游涵</view>
+        <view class="rank-second-content-time"><text class="rank-s-point">62</text> 积分</view>
+      </view>
+    </view>
+
+    <view class="rank-first">
+      <view class="rank-first-photo orange">
+        <image src="/images/huanguan.png" class="rank-huanguan"></image>
+        <image src="/images/rank-f.png" class="rank-f" />
+        <text class="rank-f-text">1</text>
+        <text class="rank-s-name">赟</text>
+      </view>
+      <view class="rank-first-content">
+        <view class="rank-first-content-title">陈赟</view>
+        <view class="rank-first-content-time"><text class="rank-f-point">1000</text> 积分</view>
+      </view>
+    </view>
+    <view class="rank-third"></view>
+  </view>
+</view>
