@@ -28,11 +28,11 @@
       <view class="rank-second-photo blue">
         <image src="/images/rank-s.png" class="rank-s"></image>
         <text class="rank-s-text">2</text>
-        <text class="rank-s-name">涵</text>
+        <text class="rank-s-name">{{user[1].short}}</text>
       </view>
       <view class="rank-second-content">
-        <view class="rank-second-content-title">游涵</view>
-        <view class="rank-second-content-time"><text class="rank-s-point">62</text> 积分</view>
+        <view class="rank-second-content-title">{{user[1].name}}</view>
+        <view class="rank-second-content-time"><text class="rank-s-point">{{user[1].point}}</text> 积分</view>
       </view>
     </view>
 
@@ -41,11 +41,11 @@
         <image src="/images/huanguan.png" class="rank-huanguan"></image>
         <image src="/images/rank-f.png" class="rank-f" />
         <text class="rank-f-text">1</text>
-        <text class="rank-s-name">赟</text>
+        <text class="rank-s-name">{{user[0].short}}</text>
       </view>
       <view class="rank-first-content">
-        <view class="rank-first-content-title">陈赟</view>
-        <view class="rank-first-content-time"><text class="rank-f-point">1000</text> 积分</view>
+        <view class="rank-first-content-title">{{user[0].name}}</view>
+        <view class="rank-first-content-time"><text class="rank-f-point">{{user[0].point}}</text> 积分</view>
       </view>
     </view>
     <view class="rank-third"></view>

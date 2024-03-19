@@ -5,7 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    // 用户信息 按积分降序
+    user: [
+      {
+        name: '陈赟',
+        short: '赟',
+        point: 0
+      },
+      {
+        name: '游涵',
+        short: '涵',
+        point: 0
+      }
+    ]
   },
 
   /**

@@ -2,19 +2,18 @@
 .container {
   width: 750rpx;
   height: 100vh;
-  padding: 40rpx 20rpx 20rpx;
+  padding: 20rpx 20rpx 20rpx;
   display: block;
   text-align: center;
-  background: #191b1f;
+  background: #fefae0;
   color: white;
 }
 
 .time {
   display: flex;
-  padding: 0 10rpx;
-  background: #1e2024;
+  background: #edf1d0;
   border-radius: 10rpx;
-  padding: 10rpx;
+  padding: 15rpx 10rpx;
   align-items: center;
   justify-content: space-between;
 }
@@ -26,7 +25,7 @@
 }
 
 .time-item.active {
-  background: #353636;
+  background: #ccd5ae;
 }
 
 .time-separator {
@@ -37,13 +36,14 @@
 
 .time-title {
   font-size: 30rpx;
-  color: white;
+  font-weight: bold;
+  color: #264653;
   margin: 10rpx 0;
 }
 
 .time-time {
   font-size: 22rpx;
-  color: #a4abb1;
+  color: #6a747c;
   margin: 10rpx 0;
 }
 
@@ -59,8 +59,8 @@
   display: flex;
   flex-basis: 150rpx;
   align-items: center;
-  height: 300rpx;
-  background: #242529;
+  height: 250rpx;
+  background: #2f4b77;
   border-radius: 50rpx 0 0 50rpx;
 }
 
@@ -71,7 +71,7 @@
   flex-basis: 200rpx;
   display: flex;
   align-items: center;
-  background: #2e3034;
+  background: #457b9d;
   border-radius: 80rpx 80rpx 0 0;
 }
 
@@ -82,7 +82,7 @@
   display: flex;
   align-items: center;
   height: 200rpx;
-  background: #242529;
+  background: #2f4b77;
   border-radius: 0 50rpx 50rpx 0;
 }
 
@@ -167,7 +167,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  color: black;
+  color: #264653;
   font-weight: bold;
   font-size: 36rpx;
   transform: translate(-50%, -50%);
@@ -194,10 +194,14 @@
   color: rgb(235, 111, 111);
   font-size: 40rpx;
   font-weight: bold;
+  position: relative;
+  top: 6rpx;
 }
 
 .rank-s-point {
   color: rgb(111, 111, 235); 
   font-size: 34rpx;
   font-weight: bold;
+  position: relative;
+  top: 3rpx;
 }
